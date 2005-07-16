@@ -6,6 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Widgets-NavMenu
 Summary:	A Perl Module for Generating HTML Navigation Menus
+Summary(pl):	Modu³ Perla do generowania menu nawigacyjnych w HTML-u
 Name:		perl-HTML-Widgets-NavMenu
 Version:	0.10.0
 Release:	0.1
@@ -19,13 +20,16 @@ BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-#BuildRequires:	a lot, give me a hint how to find them 
+#BuildRequires:	a lot, give me a hint how to find them
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A Perl Module for Generating HTML Navigation Menus.
+
+%description -l pl
+Modu³ Perla do generowania menu nawigacyjnych w HTML-u.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -52,6 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO TODO-Rejects
-%dir %{perl_vendorlib}/%{pdir}/Widgets
-%{perl_vendorlib}/%{pdir}/Widgets/*
+%dir %{perl_vendorlib}/HTML/Widgets
+%{perl_vendorlib}/HTML/Widgets/*
 %{_mandir}/man3/*
