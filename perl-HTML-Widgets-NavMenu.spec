@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	Widgets-NavMenu
-Summary:	A Perl Module for Generating HTML Navigation Menus
+Summary:	A Perl module for generating HTML navigation menus
 Summary(pl):	Modu³ Perla do generowania menu nawigacyjnych w HTML-u
 Name:		perl-HTML-Widgets-NavMenu
 Version:	0.10.0
@@ -26,7 +26,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-A Perl Module for Generating HTML Navigation Menus.
+A Perl module for generating HTML navigation menus.
 
 %description -l pl
 Modu³ Perla do generowania menu nawigacyjnych w HTML-u.
