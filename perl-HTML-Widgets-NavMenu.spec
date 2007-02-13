@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Widgets-NavMenu
 Summary:	A Perl module for generating HTML navigation menus
-Summary(pl.UTF-8):   Moduł Perla do generowania menu nawigacyjnych w HTML-u
+Summary(pl.UTF-8):	Moduł Perla do generowania menu nawigacyjnych w HTML-u
 Name:		perl-HTML-Widgets-NavMenu
 Version:	1.0000
 Release:	0.1
