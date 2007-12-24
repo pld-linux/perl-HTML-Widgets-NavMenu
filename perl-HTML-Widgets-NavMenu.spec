@@ -8,12 +8,12 @@
 Summary:	A Perl module for generating HTML navigation menus
 Summary(pl.UTF-8):	Moduł Perla do generowania menu nawigacyjnych w HTML-u
 Name:		perl-HTML-Widgets-NavMenu
-Version:	1.0000
+Version:	1.0001
 Release:	0.1
 License:	MIT/X11
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f3b7f1b67b25d0902d79261ad3e9d039
+# Source0-md5:	6cace7ae837780c51a5d2bea44b1d874
 BuildRequires:	perl-Class-Accessor
 BuildRequires:	perl-Error
 BuildRequires:	perl-Module-Build
