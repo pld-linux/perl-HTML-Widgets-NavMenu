@@ -12,8 +12,9 @@ Version:	1.0001
 Release:	0.1
 License:	MIT/X11
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6cace7ae837780c51a5d2bea44b1d874
+URL:		http://search.cpan.org/dist/HTML-Widgets-NavMenu/
 BuildRequires:	perl-Class-Accessor
 BuildRequires:	perl-Error
 BuildRequires:	perl-Module-Build
